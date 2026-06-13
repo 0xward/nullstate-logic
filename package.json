@@ -1,7 +1,7 @@
 {
   "name": "@0xward/nullstate-logic",
-  "version": "1.0.0",
-  "description": "Action execution, respawn, and random raid boss mechanics for NullState.",
+  "version": "1.0.2",
+  "description": "The first AI dungeon master RPG deployed on Celo. Pay 0.01 Celo to act. Permanent death, on-chain glory.",
   "main": "index.js",
   "keywords": [
     "0xward",
@@ -12,5 +12,13 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xward/nullstate-logic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xward/nullstate-logic/issues"
+  },
+  "homepage": "https://github.com/0xward/nullstate-logic#readme"
 }

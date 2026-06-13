@@ -10,12 +10,27 @@ The @0xward/nullstate-logic package provides the core execution state machine an
 
 ## Installation
 
-Install the package via the npm package manager:
+### Prerequisites
+- Node.js >= 18.0.0
+- npm >= 9.0.0 (or yarn >= 1.22.0 / pnpm >= 8.0.0)
+
+### Package Deployment
+Execute the targeted acquisition command matching your production environment package manager setup:
 
 ```bash
+# Using Node Package Manager (Default)
 npm install @0xward/nullstate-logic
+
+# Using Yarn Package Manager
+yarn add @0xward/nullstate-logic
+
+# Using PNPM Package Manager
+pnpm add @0xward/nullstate-logic
 ```
 
+### Peer Dependencies
+For secure runtime cryptographic executions and ledger state mutations, ensure your runtime container establishes communication boundaries with the primary network bindings if processing on-chain blocks:
+- For Celo EVM networks: viem (>= 2.x) or ethers (>= 6.x) for advanced RPC transaction routing.
 ---
 
 ## Core Capabilities

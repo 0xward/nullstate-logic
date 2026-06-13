@@ -1,0 +1,16 @@
+{
+  "name": "@0xward/nullstate-logic",
+  "version": "1.0.0",
+  "description": "Action execution, respawn, and random raid boss mechanics for NullState.",
+  "main": "index.js",
+  "keywords": [
+    "0xward",
+    "web3",
+    "utility"
+  ],
+  "author": "0xward",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

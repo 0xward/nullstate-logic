@@ -1,6 +1,6 @@
 {
   "name": "@0xward/nullstate-logic",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The first AI dungeon master RPG deployed on Celo. Pay 0.01 Celo to act. Permanent death, on-chain glory.",
   "main": "index.js",
   "keywords": [

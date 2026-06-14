@@ -1,6 +1,6 @@
 {
   "name": "@0xward/nullstate-logic",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The first AI dungeon master RPG deployed on Celo. Pay 0.01 Celo to act. Permanent death, on-chain glory.",
   "main": "index.js",
   "keywords": [
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/0xward/nullstate-logic/issues"
   },
-  "homepage": "https://www.npmjs.com/package/@0xward/nullstate-logic#readme"
+  "homepage": "https://www.npmjs.com/package/@0xward/nullstate-logic#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
 }

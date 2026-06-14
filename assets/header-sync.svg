@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="120" height="120">
+<svg xmlns="www.w3.org/2000/svg" viewBox="0 0 100 100" width="120" height="120">
   <style>
     .spin { transform-origin: center; animation: spinLoop 6s linear infinite; }
     .pulse { animation: pulseLoop 2s ease-in-out infinite alternate; }

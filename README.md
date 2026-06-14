@@ -1,13 +1,9 @@
 <p align="center">
-  <img src="./assets/header-sync.svg" alt="0xward Core Intelligence Sync Animation" width="120" height="120" />
 </p>
 
 # @0xward/nullstate-logic
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@0xward/nullstate-logic"><img src="https://img.shields.io/npm/v/@0xward/nullstate-logic?style=flat-square" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/package/@0xward/nullstate-logic"><img src="https://img.shields.io/npm/dm/@0xward/nullstate-logic?style=flat-square" alt="NPM Downloads" /></a>
-  <a href="https://www.npmjs.com/package/@0xward/nullstate-logic"><img src="https://img.shields.io/npm/l/@0xward/nullstate-logic?style=flat-square" alt="License" /></a>
 </p>
 
 The core execution state machine and cryptographic inventory management logic for the NullState decentralized role-playing game sub-layer on the Celo network.

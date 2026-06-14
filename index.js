@@ -26,7 +26,7 @@ class NullStateEngine {
     constructor(config = {}) {
         this.providerUrl = config.providerUrl || CELO_PROVIDER_DEFAULT;
         this.network     = config.network     || "celo";
-        this.version     = "1.0.0";
+        this.version     = "1.0.6";
         this._validateConfig();
     }
 

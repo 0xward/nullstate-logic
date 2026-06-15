@@ -2,7 +2,6 @@
 // Core execution state machine for the NullState decentralized RPG on Celo
 // Permanent death. Real stakes. On-chain glory.
 
-const CELO_PROVIDER_DEFAULT = Buffer.from('aHR0cHM6Ly9mb3Juby5jZWxvLm9yZw==', 'base64').toString('utf8');
 const MIN_ACTION_PAYMENT     = 0.01; // CELO
 const MAX_GLORY_POINTS       = 9999;
 
@@ -26,7 +25,7 @@ class NullStateEngine {
     constructor(config = {}) {
         this.providerUrl = config.providerUrl || CELO_PROVIDER_DEFAULT;
         this.network     = config.network     || "celo";
-        this.version     = "1.0.7";
+        this.version     = "1.1.7";
         this._validateConfig();
     }
 
@@ -144,7 +143,6 @@ class NullStateEngine {
             celoSpent: amount,
             gloryEarned,
             log: `Action "${action}" permanently recorded on Celo at block ${blockNum}.`,
-            explorerUrl: Buffer.from('aHR0cHM6Ly9leHBsb3Jlci5jZWxvLm9yZy90eC8=', 'base64').toString('utf8') + txHash,
             timestamp: new Date().toISOString(),
         };
     }
